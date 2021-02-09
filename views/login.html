@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidxs a MercadoLiebre</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/forms.css">
+</head>
+
+<body>
+    <header id="page-header">
+        <div id="top-header">
+            <div class="logo">
+                <a href="/">
+                    <img src="/img/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
+                </a>
+            </div>
+            <div class="search-form">
+                <div class="search-box">
+                    <input class="search-input" placeholder="Buscar productos, marcas y más">
+                    <button class="search-btn"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+            <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+        <nav id="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#">Ofertas</a></li>
+                <li class="nav-item"><a href="#">Tiendas Oficiales</a></li>
+                <li class="nav-item"><a href="#">Vender</a></li>
+                <li class="nav-item"><a href="#">Ayuda</a></li>
+            </ul>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                <li class="nav-item"><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li class="nav-item"><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
+        <div id="burger-menu">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+    <main>
+        <h1>Login</h1>
+        <div class="error-box">
+            <ul>
+                <li>
+                    Tenés que completar el nombre de usuario
+                </li>
+            </ul>
+        </div>
+        <form action="/" method="GET">
+            <div class="input-box">
+                <label class="label" for="user">Nombre de usuario</label>
+                <input class="input" type="text" name="user" id="user" placeholder="Nombre de usuario">
+            </div>
+            <div class="input-box">
+                <label class="label" for="password">Password</label>
+                <input class="input" type="password" name="password" id="password" placeholder="Contraseña">
+            </div>
+
+            <div class="input-button">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
