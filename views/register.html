@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidxs a MercadoLiebre</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="Css/register.css">
+
+</head>
+
+<body>
+    <header id="page-header">
+        <div id="top-header">
+            <div class="logo">
+                <a href="/">
+                    <img src="/images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre" id="logo-img">
+                </a>
+            </div>
+            <div class="search-form">
+                <div class="search-box">
+                    <input class="search-input" placeholder="Buscar productos, marcas y más">
+                    <button class="search-btn"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+            <div class="texto-nav">
+                <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+            </div>
+            
+        </div>
+        <nav id="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#">Ofertas</a></li>
+                    <li class="nav-item"><a href="#">Tiendas Oficiales</a></li>
+                    <li class="nav-item"><a href="#">Vender</a></li>
+                    <li class="nav-item"><a href="#">Ayuda</a></li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                    <li class="nav-item"><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                    <li class="nav-item"><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+                </ul>
+        </nav>
+        <div id="burger-menu">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+    <main>
+        <form method="POST">
+            <div class = "flex-conteiner-column">
+                <input type="text" placeholder ="Nombre y apellido" class="input-register">
+                <input type="text" placeholder ="Nombre de usuario" class="input-register">
+                <input type="text" placeholder ="E-mail" class="input-register">
+                <h4>Fecha de nacimiento</h4>
+                <div class = "date-conteiner">
+                    <input type ="date" class="input-register">
+                    <i class="fas fa-calendar calendar"></i>
+                </div>
+                <input type="text" placeholder="Domicilio" class="input-register">
+                <h4>Perfil de usuario</h4>
+                <div class = "flex-conteiner radio-conteiner">
+                    <div class = "radio-item">
+                        <input type ="radio" name ="tipo-de-usuario" value = "Comprador"> 
+                        <p class="texto-radio">Comprador</p>
+                        </input>
+                    </div>
+                    <div class = "radio-item">
+                        <input type ="radio" name ="tipo-de-usuario" value ="Vendedor">
+                        <p class="texto-radio">Vendedor</p>
+                        </input>
+                    </div>
+                </div>
+                <h4>Intereses</h4>
+                <div class = "flex-conteiner">
+                    <input type = "checkbox" name = "intereses" value ="electro">
+                    <p class = "checbox-text">Electro</p>
+                </div>
+                <div class = "flex-conteiner">
+                    <input type = "checkbox" name = "intereses" value ="moda">
+                    <p class = "checbox-text">Moda</p>
+                </div>
+                <div class = "flex-conteiner">
+                    <input type = "checkbox" name = "intereses" value ="hogar">
+                    <p class = "checbox-text">Hogar</p>
+                </div>
+                <div class = "flex-conteiner">
+                    <input type = "checkbox" name = "intereses" value ="jugeteria">
+                    <p class = "checbox-text">Jugeteria</p>
+                </div>
+                <div class = "flex-conteiner">
+                    <input type = "checkbox" name = "intereses" value ="vida-sana">
+                    <p class = "checbox-text">Vida sana</p>
+                </div>
+            </div>
+        </form>
+    </main>

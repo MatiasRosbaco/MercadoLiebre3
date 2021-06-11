@@ -1,0 +1,58 @@
+
+
+.flex-conteiner-column{
+    display:flex;
+    flex-direction:column;
+}
+
+.input-register{
+    align-self:center;
+    width:90vw;
+    height:1.8rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: #666;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.date-conteiner{
+    position:relative;
+}
+
+.calendar{
+    position:absolute;
+    top:35%;
+    right:3%;
+}
+
+.radio-conteiner{
+    justify-content:space-around;
+    margin-bottom:3%;
+}
+
+input[type=radio]{
+    margin-right:10%;
+}
+
+.flex-conteiner{
+    display:flex;
+    flex-direction:row;
+}
+
+.radio-item{
+    display:flex;
+    flex-direction:row;
+}
+
+input[type=checkbox]{
+    margin: 5% 5% 2% 5%;
+}
+
+.checbox-text{
+    margin:5% 0% 2% 0%
+}
