@@ -24,3 +24,7 @@
     background-color: blue;
     color:white;
 }
+
+.button:hover{
+    background-color:#0022AA;
+}
